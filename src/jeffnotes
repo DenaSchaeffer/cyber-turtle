@@ -1,0 +1,59 @@
+- Employee.py (class and methods)
+- main.py (driver program)
+
+--> in main.py:
+
+import Employee
+
+-------------------------------------
+- Classes (folder)
+    - Employee.py
+    - Company.py
+main.py
+
+in main.py:
+
+import classes.Employee
+
+_____________________________________
+####### example-requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+nose
+nose-cov
+beautifulsoup4
+#
+###### Requirements with Version Specifiers ######
+#   See https://www.python.org/dev/peps/pep-0440/#version-specifiers
+docopt == 0.6.1             # Version Matching. Must be version 0.6.1
+keyring >= 4.1.1            # Minimum version 4.1.1
+coverage != 3.5             # Version Exclusion. Anything except version 3.5
+Mopidy-Dirble ~= 1.1        # Compatible release. Same as >= 1.1, == 1.*
+
+______________________________________
+pip install -r requirement.txt
+
+
+ideas for CLI:
+-dB --debug: print the tf, idf, -tf-idf scores 
+-u --url: parse a given url
+-z --compress: use gzip library to compress output file size
+
+
+-f --filename
+=============
+- make a reference file from the wordlist and compare the file passed as an option to reference file
+
+_____________________________________
+https://pythonhosted.org/feedparser/introduction.html
+From Dena Schaeffer to Everyone:  09:45 AM
+Ran on all files: https://gyazo.com/e6dd629ef254d63af7f34ebc1e440562
+From Jeff Archer to Everyone:  09:47 AM
+https://chrome.google.com/webstore/detail/rss-feed-reader/pnjaodmkngahhkoihejjehlcdlnohgmp
+From Jeff Archer to Everyone:  09:54 AM
+https://pip.pypa.io/en/stable/reference/pip_freeze/
+
+
+add error handling for verbose mode and debug mode selections on urls
+
+Make keygen so it isn't another main file basically

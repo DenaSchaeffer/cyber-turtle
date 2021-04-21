@@ -1,0 +1,5 @@
+name: ge
+dependencies:
+  - pdfminer3
+  - bs4
+  - gensim

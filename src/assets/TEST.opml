@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Feeder - RSS Feed Reader</title>
+    </head>
+    <body>
+        <outline text="Bitdefender Labs" title="Bitdefender Labs" type="rss" xmlUrl="https://labs.bitdefender.com/feed/" htmlUrl="https://labs.bitdefender.com" rssfr-favicon="http://icons.feeder.co/bitdefender.com"/>
+		<outline text="Zscaler Blog Feeds" title="Zscaler Blog Feeds" type="rss" xmlUrl="https://www.zscaler.com/blogs/feeds" htmlUrl="https://www.zscaler.com/" rssfr-favicon="https://icons.feedercdn.com/zscaler.com"/>
+    </body>
+</opml>
